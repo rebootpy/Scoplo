@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(200, 200, 200, 0.2);
+  font-family: 'Fira Sans', sans-serif;
+}
+.padg_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  box-shadow: 3px 7px 10px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-top: 10vh;
+  padding: 50px;
+  background-color: #fff;
+
+}
+.style_weith {
+  width: 500px;
+  display: block;
+}
+.logo_info img {
+  width: 100px;
+  height: 100px;
+}
+.title_info {
+  text-align: center;
+}
+.title_info p{
+  text-align: center;
+  max-width: 500px;
+  font-size: 15px;
+}
+.forms_info {
+  margin-top: 5vh;
+  align-items: center;
+  text-align: center;
+}
+.forms_info input {
+  padding: 10px 5px 10px 5px;
+  margin-bottom: 2vh;
+  border-radius: 5px;
+  box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.forms_info button {
+  padding: 5px 50px 5px 50px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.2);
+  background-color: #BADEFC;
+}
